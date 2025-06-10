@@ -28,19 +28,19 @@ body {
 /*Este es un id único en el HTML, representado por #nombre*/
 /*Este color está declarado en #Hex*/
 #color1 {
-    background-color: #E03616;
+    background-color: #d334ff;
 }
 /*Este color está declarado con una palabra clave*/
 #color2 {
-    background-color: yellowgreen;
+    background-color: rgb(15, 190, 129);
 }
 /*Este color está declarado con valores RGB (XX, XX, XX)*/
 #color3 {
-    background-color: rgb(23, 193, 223);
+    background-color: rgb(62, 95, 243);
 }
 /*Este color está declarado en RGB, y tiene transparencia de 0.705*/
 #color4 {
-    background-color: rgba(251, 255, 0, 0.705);
+    background-color: rgba(248, 98, 238, 0.705);
 }
 
 /*ESTILOS DE BARRA DE NAVEGACIÓN*/
@@ -82,12 +82,13 @@ nav a:hover{
     /*Posicionamiento 10px abajo de dónde debería estar*/
     position: relative;
     top: 10px;
+    mix-blend-mode:lighten;
 }
 
 /*ESTILOS DE BANNER*/
 .banner {
     /*Imagen de fondo*/
-    background-image: url(media/background_first.jpg);
+    background-image: url(media/background.png);
     /*Posición del fondo x|y*/
     background-position: center bottom;
     /*¿Repetir fondo? (tramas)*/
