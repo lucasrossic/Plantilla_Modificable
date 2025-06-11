@@ -28,21 +28,22 @@ body {
 /*Este es un id único en el HTML, representado por #nombre*/
 /*Este color está declarado en #Hex*/
 #color1 {
-    background-color: #d334ff;
+    background-color: #000000;
 }
 /*Este color está declarado con una palabra clave*/
 #color2 {
-    background-color: rgb(15, 190, 129);
+    background-color: #000000;
+
 }
 /*Este color está declarado con valores RGB (XX, XX, XX)*/
 #color3 {
-    background-color: rgb(62, 95, 243);
+    background-color: #000000;
 }
 /*Este color está declarado en RGB, y tiene transparencia de 0.705*/
 #color4 {
-    background-color: rgba(248, 98, 238, 0.705);
+    background-color: #000000;
 }
-
+.icon{mix-blend-mode:lighten; background-color:;}
 /*ESTILOS DE BARRA DE NAVEGACIÓN*/
 nav {
     /*Color de texto declarado en #Hex*/
@@ -118,9 +119,9 @@ nav a:hover{
 /*ESTILOS DEL BOTON*/
 .btn {
     /*Color de fondo*/
-    background-color: rgba(255, 0, 0, 0.664);
+    background-color: rgb(0, 255, 217);
     /*Color de tipografía*/
-    color: white;
+    color: rgb(0, 0, 0);
     /*Decoracion del texto*/
     text-decoration: none;
     /*Alineación del texto*/
