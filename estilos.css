@@ -33,7 +33,6 @@ body {
 /*Este color está declarado con una palabra clave*/
 #color2 {
     background-color: #000000;
-
 }
 /*Este color está declarado con valores RGB (XX, XX, XX)*/
 #color3 {
@@ -43,7 +42,7 @@ body {
 #color4 {
     background-color: #000000;
 }
-.icon{mix-blend-mode:lighten; background-color:;}
+.icon{mix-blend-mode:lighten;}
 /*ESTILOS DE BARRA DE NAVEGACIÓN*/
 nav {
     /*Color de texto declarado en #Hex*/
